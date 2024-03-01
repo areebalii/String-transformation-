@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+body{
+    background-color: rgb(84, 40, 84);
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+input{
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+}
+.transform-output{
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: bisque;
+    position: relative;
+}
+.transform-output label{
+    font-size: 0.75rem;
+    position: absolute;
+    top: -0.75rem;
+    left: 1rem;
+    background-color: black;
+    color: white;
+    padding: 0.25rem;
+}
+
+@media  (max-width: 588px) {
+    main{
+        padding: 0 15px;
+    }
+    
+}
